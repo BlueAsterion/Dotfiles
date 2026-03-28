@@ -1,0 +1,41 @@
+# Ignore system & temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.tmp
+
+# Cache / build dirs for apps
+waybar.backup/
+wayvibes/
+fastfetch/cache/
+obs-studio/
+mozilla/
+pulse/
+systemd/
+*.log
+protonup/
+vesktop/
+discord/
+dconf/
+gh/
+gtk-3.0/
+spicetify/
+zen/
+mimeapps.list
+
+# Editor temporary files
+lvim/.cache/
+nvim/.cache/
+kitty/.cache/
+
+# OS-specific
+.DS_Store
+.Trashes
+
+# Ignore compiled or binary artifacts
+*.pyc
+*.o
+*.so
+*.out
